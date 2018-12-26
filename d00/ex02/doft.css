@@ -1,0 +1,69 @@
+body
+{
+	background-color: rgb(80, 80, 80);
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+header
+{
+	background-color: rgb(144, 144, 144);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px;
+	padding: 10px;
+}
+
+nav
+{
+	background-color: rgb(144, 144, 144);
+	width: 8%;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px;
+	padding: 10px;
+	margin-left: 15px;
+}
+
+#left
+{
+	float: left;
+}
+
+#right
+{
+	float: right;
+}
+
+nav img
+{
+	width: 80%;
+}
+
+main
+{
+	background-color: rgb(144, 144, 144);
+	width: 75%;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px;
+	padding: 7px;
+	float: left;
+	margin-left: 15px;
+}
+
+main img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer
+{
+	background-color: rgb(136, 255, 137);
+}
