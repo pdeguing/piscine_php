@@ -8,26 +8,34 @@
 	<body>
 		<div id="header">
 			<header>
-				<img src="./resources/day_of_the_42.png" width="30%"></img>
-				<img src="./resources/reload.png" width="2%" style="float: right;"></img>
-				<img src="./resources/loupe.png" width="15%" style="position: absolute; margin-top: 3px; margin-left: 32%; margin-right: 0;"></img>
-				<img src="./resources/close.gif" width="2%" style="margin-left: 98%; margin-right: 0;"></img>
+				<img src="./resources/day_of_the_42.png" title="Day of the 42" width="30%"></img>
+				<a href="http://www.disney.com">
+					<img src="./resources/reload.png" title="Recommencer au debut" width="2%" style="float: right;"></img>
+				</a>
+				<img src="./resources/loupe.png" title="Loupe" width="15%" style="position: absolute; margin-top: 3px; margin-left: 32%; margin-right: 0;"></img>
+				<a href="http://www.relaischateux.com">
+					<img src="./resources/close.gif" title="Deconnecter" width="2%" style="margin-left: 98%; margin-right: 0;"></img>
+				</a>
 			</header>
 		</div>
 		<div id="container">
 			<nav id="left">
-				<img src="./resources/arrow.png"></img>
-				<img src="./resources/main.png"></img>
-				<img src="./resources/oeil.png"></img>
-				<img src="./resources/outil.png"></img>
-				<img src="./resources/chat-icon.png"></img>
+				<img src="./resources/arrow.png" title="Avancer"></img>
+				<img src="./resources/main.png" title="Prendre"></img>
+				<img src="./resources/oeil.png" title="Regarder"></img>
+				<img src="./resources/outil.png" title="Utiliser"></img>
+				<img src="./resources/chat-icon.png" title="Parler"></img>
 			</nav>
 			<main>
-				<img src="./resources/cluster.jpg" width="100%"></img>
+				<img src="./resources/cluster.jpg" title="Cluster" width="100%" usemap="#cluster"></img>
+				<map name="cluster">
+					<area shape="rect" coords="220,220,320,380" alt="Ikea" href="http://www.ikea.com">
+					<area shape="rect" coords="540,210,680,330" alt="Ikea" href="http://www.apple.com">
+				</map>
 			</main>
 			<nav id="right">
-				<img src="./resources/book.png"></img>
-				<img src="./resources/towel.png"></img>
+				<img src="./resources/book.png" title="Book"></img>
+				<img src="./resources/towel.png" title="Towel"></img>
 				<div id="brick">
 				</div>
 			</nav>
