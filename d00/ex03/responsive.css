@@ -1,0 +1,74 @@
+body
+{
+	background: rgba(0, 0, 0, 0.9);
+	color: rgba(0, 0, 0, 0.9);
+	font-family: helvetica;
+}
+.mass
+{
+	text-align: right;
+	font-size: 0.6vw;
+}
+.number
+{
+	text-align: left;
+	font-size: 0.6vw;
+}
+table
+{
+	table-layout: fixed;
+}
+table, td
+{
+	border: none;
+	border-radius: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 5px;
+}
+h1
+{
+	margin: 0;
+	margin-top: 2px;
+	font-size: 2vw;
+
+}
+p
+{
+	margin: 0;
+}
+td
+{
+	padding: 5px;
+	vertical-align: middle;
+	transition: all .2s ease-in-out;
+}
+td:hover
+{
+	transform: scale(0.98);
+}
+.empty
+{
+	background: none;
+}
+.empty:hover
+{
+	box-shadow: none;
+}
+.alkalimetals{background-image: linear-gradient(to bottom right, #e87d7d, #e87d7d);}
+.alkalinemetals{background-image: linear-gradient(to bottom right, #e8987d, #e8987d);}
+.othermetals{background-image: linear-gradient(to bottom right, #e8cd7d, #e8cd7d);}
+.transitionmetals{background-image: linear-gradient(to bottom right, #e8e87d, #e8e87d);}
+.lanthanoids{background-image: linear-gradient(to bottom right, #b3e87d, #b3e87d);}
+.actinoids{background-image: linear-gradient(to bottom right, #98e87d, #98e87d);}
+.metalloids{background-image: linear-gradient(to bottom right, #7de87d, #7de87d);}
+.nonmetals{background-image: linear-gradient(to bottom right, #7d7de8, #7d7de8);}
+.halogens{background-image: linear-gradient(to bottom right, #e87dcd, #e87dcd);}
+.noblegases{background-image: linear-gradient(to bottom right, #7dc4e8, #7dc4e8);}
+.unknown{background-image: linear-gradient(to bottom right, #cccccc, #cccccc);}
+img
+{
+	width: 10%;
+	display: block;
+	margin: auto;
+}
