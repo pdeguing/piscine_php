@@ -11,8 +11,17 @@
 # **************************************************************************** #
 
 import sys
+import re
+
+def edit_link(match):
+	return (match.group(1) + match.group(2).upper() + match.group(3))	
 
 def loupe(filename):
+	with open(filename) as f:
+		read_data = f.read()
+	new = re.sub(r'(<a.*?title=")(.*?)(">)|(<a.*?>)(.*?)(<)', edit_link, read_data)
+	new = re.sub(r'(<a.*?>)(.*?)(<)', edit_link, new)
+	print(new)
 
 if __name__ == "__main__":
     if len(sys.argv) == 2:
